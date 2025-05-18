@@ -20,9 +20,9 @@ The `-t/--pattern` argument accepts a string of underscores indicating the lengt
 #### Input:
 `clj -M -m wordle.core -p "abc" -a "def" -t "__b__"`
 
-`abc` = the letters we know to be in the word
-`def` = the letters we know are't in the word
-`__b__` = indicates it's a five-letter word, where the third letter is a b
+- `abc` = the letters we know to be in the word
+- `def` = the letters we know are't in the word
+- `__b__` = indicates it's a five-letter word, where the third letter is a b
 
 #### Output:
 ```
